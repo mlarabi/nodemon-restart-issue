@@ -1,0 +1,32 @@
+{
+  "name": "nodemon-restart-issue",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "start": {
+      "patterns": [
+        "*"
+      ],
+      "extensions": "js"
+    }
+  },
+  "scripts": {
+    "start": "node index.js",
+    "watch": "npm-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlarabi/nodemon-restart-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlarabi/nodemon-restart-issue/issues"
+  },
+  "homepage": "https://github.com/mlarabi/nodemon-restart-issue#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "npm-watch": "^0.10.0"
+  }
+}
